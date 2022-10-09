@@ -6,21 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="separar">
+        <div class="login">
 
-    <div class="login">
-        <h1>login</h1>
-        <h2>faça o login</h2>
-        <h3>ola
-        </h3>
+            <h1 class="loginText">Login</h1>
 
-        <img class="logo" src="/../img/logo.jpeg" alt="">
+            <h2 class="facaLogin">Faça o login para continuar</h2>
 
+            <hr>
+
+            <img class="logo" src="/../img/logo.jpeg" alt="">
+
+        </div>
+
+        <div class="preencher">
+
+            <div class="iniciarsessao">
+                <h1>Iniciar</h1>
+                <h1>Sessão</h1>
+            </div>
+
+            <form action="paginaPrincipal.html">
+
+                <label class="email" for="email">EMAIL</label>
+                <br>
+                <input id="email" name="email" type="text" placeholder="Digite seu email">
+                <br>
+
+                <br>
+                <label class="senha" for="senha">SENHA</label>
+                <br>
+                <input id="senha" name="senha" type="text" placeholder="Digite sua senha">
+                <br>
+
+                <div class="botao">
+                    <button>LOGIN</button>
+                    <br>
+
+                    <a class="cadastrar" href="cadastrar.html">Cadastrar-se</a>
+                </div>
+
+            </form>
+
+        </div>
     </div>
-
 </body>
 
 </html>

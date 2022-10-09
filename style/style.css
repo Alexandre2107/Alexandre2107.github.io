@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-image: url(/../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+
+}
+
+.loginText {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.facaLogin {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+hr {
+    width: 20%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+    border-width: 0px;
+}
+
+.logo {
+    margin-top: 50px;
+    width: 50%;
+}
+
+.preencher {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.iniciarsessao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.email {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#email {
+    width: 350px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    border-width: 0px;
+    padding-left: 15px;
+}
+
+.senha {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#senha {
+    width: 350px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    border-width: 0px;
+    padding-left: 15px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+button {
+    background-color: #dc1d23;
+    color: white;
+    border-width: 0px;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar-se</title>
+    <link rel="stylesheet" href="/../style/cadastrar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="separar">
+        <div class="cadastrar">
+
+            <h1 class="cadastrarText">Cadastrar-se</h1>
+
+            <a class="possuiLoginAnchor" href="index.html">
+                <h2 class="possuiLogin">Já Possui Login? Iniciar Sessão</h2>
+            </a>
+
+
+            <hr>
+
+            <img class="logo" src="/../img/logo.jpeg" alt="">
+
+        </div>
+
+        <div class="preenchimento">
+
+            <div class="login">
+                <h1>Login</h1>
+            </div>
+
+            <form action="paginaPrincipal.html">
+
+                <label class="titulo" for="nome">NOME</label>
+                <br>
+                <input class="input" id="nome" name="nome" type="text" placeholder="Digite seu nome">
+                <br>
+
+
+                <label class="titulo" for="endereco">ENDEREÇO</label>
+                <br>
+                <input class="input" id="endereco" name="endereco" type="text" placeholder="Digite seu endereço">
+                <br>
+
+
+                <label class="titulo" for="email">EMAIL</label>
+                <br>
+                <input class="input" id="email" name="email" type="text" placeholder="Digite seu email">
+                <br>
+
+
+                <label class="titulo" for="cidade">CIDADE</label>
+                <br>
+                <input class="input" id="cidade" name="cidade" type="text" placeholder="Digite sua cidade">
+                <br>
+
+                <label class="titulo" for="estados">ESTADO</label>
+                <br>
+                <select class="input" id="estado" name="estado">
+                    <option value="Selecione...">Selecione um estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="EX">Estrangeiro</option>
+                </select>
+                <br>
+
+                <div class="sexo">
+                    <label class="titulo" for="sexo">SEXO:</label>
+                    <input id="M" name="sexo" type="radio" value="Masculino"> <label for="M">MASCULINO</label>
+                    <input id="F" name="sexo" type="radio" value="Feminino"> <label for="F">FEMININO</label>
+                </div>
+
+
+                <label class="titulo">GÊNEROS QUE VOCÊ GOSTA:</label>
+                <br>
+
+                <div class="row">
+                    <div class="genero1">
+                        <input type="checkbox" name="Habilidades" value="ACAO" id="ACAO"> <label for="ACAO">AÇÃO</label>
+                        <br>
+                        <input type="checkbox" name="Habilidades" value="COMEDIA" id="COMEDIA"> <label
+                            for="COMEDIA">COMÉDIA</label>
+                        <br>
+                        <input type="checkbox" name="Habilidades" value="SUSPENSE" id="SUSPENSE"> <label
+                            for="SUSPENSE">SUSPENSE</label>
+                    </div>
+
+                    <div class="genero2">
+                        <input type="checkbox" name="Habilidades" value="AVENTURA" id="AVENTURA"> <label
+                            for="AVENTURA">AVENTURA</label>
+                        <br>
+                        <input type="checkbox" name="Habilidades" value="DRAMA" id="DRAMA"> <label
+                            for="DRAMA">DRAMA</label>
+                        <br>
+                        <input type="checkbox" name="Habilidades" value="ROMANCE" id="ROMANCE"> <label
+                            for="ROMANCE">ROMANCE</label>
+                    </div>
+
+                    <div class="genero3">
+                        <input type="checkbox" name="Habilidades" value="TERROR" id="TERROR"> <label
+                            for="TERROR">TERROR</label>
+                        <br>
+                    </div>
+                </div>
+
+
+                <label class="titulo" for="usuario">USUÁRIO</label>
+                <br>
+                <input class="input" id="usuario" name="usuario" type="text" placeholder="Digite seu usuário">
+                <br>
+
+                <label class="titulo" for="senha">SENHA</label>
+                <br>
+                <input class="input" id="senha" name="senha" type="text" placeholder="Digite sua senha">
+                <br>
+
+
+
+
+
+
+                <div class="botao">
+                    <button>CADASTRAR</button>
+                    <input class="reset" type="reset" value="LIMPAR">
+                </div>
+
+            </form>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
