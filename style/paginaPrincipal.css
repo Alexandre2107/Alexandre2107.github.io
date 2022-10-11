@@ -1,0 +1,39 @@
+@import url(raiz.css);
+
+.maincontent {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logoPaginaPrincipal {
+    width: 150px;
+
+}
+
+.descricao {
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.informacao {
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 70px;
+    font-size: 20px;
+}

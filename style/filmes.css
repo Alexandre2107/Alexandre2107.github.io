@@ -1,0 +1,67 @@
+@import url(raiz.css);
+
+
+main {}
+
+.generos {
+    margin-top: 30px;
+    display: flex;
+    display: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.vertical {
+    border-left: 6px solid white;
+    height: 70px;
+}
+
+.generos a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.filmes1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.filmes1 img {
+    width: 200px;
+}
+
+.filmes1 a {
+    text-decoration: none;
+}
+
+.filme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filmes2 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.filmes2 img {
+    width: 200px;
+}
+
+.filmes2 a {
+    text-decoration: none;
+}
+
+.filme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
