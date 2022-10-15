@@ -1,7 +1,13 @@
 @import url(raiz.css);
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 350px);
 
-
+}
 
 .generos {
     margin-top: 30px;
@@ -20,7 +26,6 @@
 .generos a {
     font-size: 20px;
     text-decoration: none;
-    align-content: center;
 }
 
 .filmes1 {
@@ -29,6 +34,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .filmes1 img {
@@ -43,22 +49,6 @@
     align-items: center;
 }
 
-.filmes2 {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.filmes2 img {
-    width: 180px;
-    height: 280px;
-}
-
-
-.filme {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.filme p {
+    margin-top: 10px;
 }

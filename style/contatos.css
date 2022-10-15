@@ -1,0 +1,123 @@
+@import url(raiz.css);
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 80px;
+    color: white;
+    text-decoration: underline;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.3);
+
+}
+
+.NOME {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+
+#NOME {
+    width: 350px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    border-width: 0px;
+    padding-left: 15px;
+}
+
+.email {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+#email {
+    width: 350px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    border-width: 0px;
+    padding-left: 15px;
+}
+
+.assunto {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+#assunto {
+    width: 350px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    border-width: 0px;
+    padding-left: 15px;
+}
+
+.textarea {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+#textarea {
+    width: 350px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    border-width: 0px;
+    padding: 15px;
+}
+
+.mensagem {
+    resize: none;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+button {
+    background-color: #dc1d23;
+    color: white;
+    border-width: 0px;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.reset {
+    background-color: #dc1d23;
+    color: white;
+    border-width: 0px;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}

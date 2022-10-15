@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Contatos</title>
     <link rel="icon" href="/../img/logo.jpeg">
-    <link rel="stylesheet" href="/../style/paginaPrincipal.css">
+    <link rel="stylesheet" href="/../style/contatos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
     <header>
         <img class="logo" src="/../img/logo.jpeg" alt="Logo Locadora K7">
 
-        <a class="active" href="paginaPrincipal.html">
+        <a href="paginaPrincipal.html">
             <h1 class="tituloHeader">Página Principal</h1>
         </a>
         <a href="filmes.html">
@@ -32,7 +32,7 @@
         <a href="">
             <h1 class="tituloHeader">Trilha Sonora</h1>
         </a>
-        <a href="contatos.html">
+        <a class="active" href="contatos.html">
             <h1 class="tituloHeader">Contatos</h1>
         </a>
         <a href="sobre.html">
@@ -44,17 +44,35 @@
         </a>
     </header>
 
-    <div class="maincontent">
-        <img class="logoPaginaPrincipal" src="/../img/logo.jpeg" alt="Logo Locadora K7">
+    <main>
+        <h1>Contatos</h1>
 
-        <p class="descricao">SOMOS UM GRUPO QUE BUSCA LEVAR VOCÊ PARA ONDE QUISER.
-            A MELHOR EXPERIÊNCIA DO CINEMA NA SUA CASA!</p>
+        <form action="">
+            <div class="box">
+                <label class="NOME" for="NOME">NOME</label>
+                <input id="NOME" name="NOME" type="text" placeholder="Digite seu Nome">
 
-        <div class="info">
-            <p class="informacao">Endereço: Rua Téozinho, 3 </p>
-            <p class="informacao">Horário de Atendimento: <br>7:00 às 17:00</p>
-        </div>
-    </div>
+                <label class="email" for="email">EMAIL</label>
+                <input id="email" name="email" type="email" placeholder="Digite seu email">
+
+
+                <label class="assunto" for="assunto">ASSUNTO</label>
+                <input id="assunto" name="assunto" type="text" placeholder="Digite seu assunto">
+
+
+                <label class="textarea" for="textarea">MENSAGEM</label>
+                <textarea class="mensagem" id="textarea" name="textarea" placeholder="Digite sua Mensagem"></textarea>
+
+                <div class="botao">
+                    <input class="reset" type="reset" value="LIMPAR">
+                    <button>ENVIAR</button>
+                </div>
+            </div>
+        </form>
+
+
+
+    </main>
 
     <footer>&copy
         <p>Alexandre Rodrigues e Rafael Valeriano - Instituto Federal do Sul de Minas Gerais - 2022</p>

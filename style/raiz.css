@@ -31,10 +31,18 @@ a {
     color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .active {
     color: #182052;
+}
+
+.active2 {
+    height: 50px;
+    width: 150px;
+    background-color: #7F95D1;
+    border-radius: 50px;
 }
 
 .tituloHeader {
