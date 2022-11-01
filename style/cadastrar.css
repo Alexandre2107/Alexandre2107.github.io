@@ -68,7 +68,7 @@ hr {
     flex-direction: column;
     border-radius: 20px;
     color: white;
-    padding: 50px;
+    padding: 30px;
     background: rgba(255, 255, 255, 0.3);
 }
 
@@ -132,7 +132,12 @@ hr {
 }
 
 
-
+.ParteBaixoCadastrar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .botao {
