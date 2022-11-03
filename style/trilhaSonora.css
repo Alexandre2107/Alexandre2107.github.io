@@ -1,0 +1,26 @@
+@import url(raiz.css);
+
+.column{
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px 16px 16px 16px;
+    display: inline;
+}
+
+.row{
+    margin: auto;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    max-width: 70%;
+}
+
+.row audio{
+    min-width: 70%;
+    color: #7F95D1;
+}
+
+.row p{
+    color: white;
+}

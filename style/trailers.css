@@ -1,0 +1,36 @@
+@import url(raiz.css);
+
+.column{
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px 16px 16px 16px;
+    display: inline;
+}
+
+
+.column hr{
+    margin: auto;
+    max-width: 70%;
+    height: 1px;
+    border-color: #7F95D1;
+}
+
+.row{
+    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    align-items: center;
+    max-width: 70%;
+}
+
+.row iframe{
+    min-width: 70%;
+    min-height: auto;
+    color: #7F95D1;
+}
+
+.row p{
+    color: white;
+}
